@@ -37,52 +37,56 @@ void loop() {
 void sosAlert() {
   //S
     digitalWrite(3, HIGH);
-    delay(100);
+    blinkDelayS();
     digitalWrite(3, LOW);
-    delay(100);
+    blinkDelayS();
 
     digitalWrite(3, HIGH);
-    delay(100);
+    blinkDelayS();
     digitalWrite(3, LOW);
-    delay(100);
+    blinkDelayS();
 
     digitalWrite(3, HIGH);
-    delay(100);
+    blinkDelayS();
     digitalWrite(3, LOW);
-    delay(100);
+    blinkDelayS();
 
     //O
     digitalWrite(3, HIGH);
-    delay(200);
+    blinkDelayO();
     digitalWrite(3, LOW);
-    delay(200);
+    blinkDelayO();
 
     digitalWrite(3, HIGH);
-    delay(200);
+    blinkDelayO();
     digitalWrite(3, LOW);
-    delay(200);
+    blinkDelayO();
 
     digitalWrite(3, HIGH);
-    delay(200);
+    blinkDelayS();
     digitalWrite(3, LOW);
-    delay(200);
+    blinkDelayS();
 
     //S
     digitalWrite(3, HIGH);
-    delay(100);
+    blinkDelayS();
     digitalWrite(3, LOW);
-    delay(100);
+    blinkDelayS();
 
     digitalWrite(3, HIGH);
-    delay(100);
+    blinkDelayS();
     digitalWrite(3, LOW);
-    delay(100);
+    blinkDelayS();
 
     digitalWrite(3, HIGH);
-    delay(100);
+    blinkDelayS();
     digitalWrite(3, LOW);
-    delay(100);
+    blinkDelayS();
 
     //Resets counter
     iCounter=0;
 }
+
+void blinkDelayS(){delay(100);}
+
+void blinkDelayO(){delay(200);}
